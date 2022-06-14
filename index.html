@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Todo app</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="title">
+      <h1>
+        TODO
+      </h1>
+
+    </div>
+    <div class="new-todo">
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <input type="text" id="input-field" placeholder="Create a new todo...">
+    </div>
+    <div class="todo-list">
+      <ul>
+        <li class="single-todo">
+          <input type="checkbox" id="single-todo-checkbox">
+          <p class="todo-text">
+            this is a todo.
+          </p>
+          <span>
+            &times
+          </span>
+        </li>
+      </ul>
+      <div class="todo-list-bottom">
+        <p class="left">
+          5 items left
+        </p>
+        <p class="right" id="clear">
+          Clear Completed
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
